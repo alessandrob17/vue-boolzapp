@@ -59,3 +59,32 @@
     .bg-grey{
         background-color: #D9DBD4;
     }
+
+    .border-right{
+        border-right: black solid 2px;
+    }
+
+    .m-0-auto{
+        margin: 0 auto;
+    }
+
+    .f-size-small{
+        font-size: 10px;
+    }
+
+    .bell{
+        background-color: white;
+        border-radius: 999px;
+        color: #8EDAFC;
+        font-size: 28px;
+    }
+
+    .bg-bell{
+        background-color: #8EDAFC;
+    }
+
+    .chat-left{
+        overflow: auto;
+        height: 465px;
+        background-color: white;
+    }
