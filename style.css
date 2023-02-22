@@ -11,6 +11,7 @@
 
     i{
         color: #B1B1B1;
+        font-size: 19px;
     }
 
      /* BAC GROUND BEHIND */
@@ -61,7 +62,7 @@
     }
 
     .border-right{
-        border-right: darkgrey solid 2px;
+        border-right: darkgrey solid 1px;
     }
 
     .m-0-auto{
@@ -91,4 +92,15 @@
 
     .status-online{
         padding-left: 255px;
+    }
+
+    .bg-chat{
+        background-image: url('./img/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg') ;
+        height: 526px;
+        overflow: auto;
+
+    }
+
+    .container-message-bar{
+        background-color: #E4DCD4;
     }
