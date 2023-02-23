@@ -9,6 +9,10 @@
     border-radius: 999px ;
     }
 
+    li{
+        list-style: none;
+    }
+
     i{
         color: #B1B1B1;
         font-size: 19px;
@@ -78,6 +82,7 @@
         border-radius: 999px;
         color: #8EDAFC;
         font-size: 28px;
+        
     }
 
     .bg-bell{
@@ -95,12 +100,43 @@
     }
 
     .bg-chat{
-        background-image: url('./img/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg') ;
+        background-image: url('./img/06_comp_1_4x.jpeg') ;
         height: 526px;
         overflow: auto;
+        background-repeat: repeat;
+        width: 100%;
 
     }
 
     .container-message-bar{
         background-color: #E4DCD4;
+    }
+
+    .bg-hover:hover{
+       background-color: #D9DBD4;
+    }
+
+    .active{
+        background-color: #D9DBD4;
+ 
+    }
+
+    .time{
+        font-size: 10px;
+    }
+
+    .message{
+        max-width: 47%;
+        border-radius: 15px;
+        font-size: 17px;
+        padding: 13px;
+        position: relative;
+    }
+
+    .message.sent{
+        background-color: #D5F9BA;
+    }
+
+    .message.received{
+        background-color: cornsilk;
     }
