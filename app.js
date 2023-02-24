@@ -1,9 +1,10 @@
+
 const { createApp } = Vue
 
 const contacts = [
 	{
 		name: 'Michele',
-		avatar: './img/avatar1.jpeg',
+		avatar: './img/avatar_1.jpg',
 		visible: true,
 		messages: [
 			{
@@ -103,7 +104,7 @@ const contacts = [
 	},
 	{
 		name: 'Claudia',
-		avatar: './img/avatar_5.jpg',
+		avatar: './img/avatar_6.jpg',
 		visible: true,
 		messages: [
 			{
@@ -171,3 +172,5 @@ createApp({
 		}
 	},
 }).mount('#app')
+
+

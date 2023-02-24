@@ -81,7 +81,8 @@
         background-color: white;
         border-radius: 999px;
         color: #8EDAFC;
-        font-size: 28px;
+        font-size: 20px;
+        padding: 12px 10px;
         
     }
 
@@ -93,6 +94,7 @@
         overflow: auto;
         height: 468px;
         background-color: white;
+        
     }
 
     .status-online{
@@ -105,7 +107,7 @@
         overflow: auto;
         background-repeat: repeat;
         width: 100%;
-
+        word-wrap: break-word;
     }
 
     .container-message-bar{
@@ -130,13 +132,20 @@
         border-radius: 15px;
         font-size: 17px;
         padding: 13px;
-        position: relative;
     }
 
     .message.sent{
         background-color: #D5F9BA;
+        margin-top: 10px;
     }
 
     .message.received{
         background-color: cornsilk;
+        margin-top: 10px;
+    } 
+
+    .time{
+        display: flex;
+        justify-content: flex-end   ;
+        
     }
